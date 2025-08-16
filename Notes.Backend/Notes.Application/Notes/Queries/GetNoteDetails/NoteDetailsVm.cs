@@ -8,7 +8,7 @@ using AutoMapper;
 using Notes.Application.Interfaces;
 using Notes.Application.Common.Mapping;
 
-namespace Notes.Application.Notes.Queries
+namespace Notes.Application.Notes.Queries.GetNoteDetails
 {
     public class NoteDetailsVm : IMapWith<Note>
     {

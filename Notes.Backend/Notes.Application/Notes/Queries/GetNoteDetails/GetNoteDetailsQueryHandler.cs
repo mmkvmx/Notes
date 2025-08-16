@@ -12,7 +12,7 @@ using Notes.Application.Common.Mapping;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace Notes.Application.Notes.Queries
+namespace Notes.Application.Notes.Queries.GetNoteDetails
 {
     public class GetNoteDetailsQueryHandler : IRequestHandler<GetNoteDetailsQuery, NoteDetailsVm>
     {
